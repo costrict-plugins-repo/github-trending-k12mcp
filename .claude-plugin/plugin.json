@@ -1,0 +1,21 @@
+{
+  "name": "k12mcp",
+  "version": "1.0.0",
+  "description": "K-12 compliance and integration guidance for developers. Covers FERPA, COPPA, state privacy laws, DPA readiness, SIS, rostering, and procurement.",
+  "author": {
+    "name": "Chris",
+    "url": "https://k12mcp.vercel.app"
+  },
+  "homepage": "https://k12mcp.vercel.app",
+  "repository": "https://github.com/crafty184/k12mcp-plugin",
+  "license": "UNLICENSED",
+  "keywords": ["k12", "edtech", "compliance", "ferpa", "coppa", "privacy", "education"],
+  "userConfig": {
+    "api_key": {
+      "title": "k12mcp API Key",
+      "description": "Your k12mcp API key. Get one free at k12mcp.vercel.app (no credit card required).",
+      "type": "string",
+      "sensitive": true
+    }
+  }
+}

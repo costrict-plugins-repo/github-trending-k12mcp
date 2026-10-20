@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "k12mcp": {
+      "url": "https://k12mcp-production.up.railway.app/mcp",
+      "headers": {
+        "Authorization": "Bearer ${user_config.api_key}"
+      }
+    }
+  }
+}
